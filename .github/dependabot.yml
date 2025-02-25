@@ -16,3 +16,5 @@ updates:
   - dependency-name: net.bytebuddy:byte-buddy
     versions:
     - 1.10.19
+    - name: PyCharm Python Security Scanner
+  uses: tonybaloney/pycharm-security@1.25.1
