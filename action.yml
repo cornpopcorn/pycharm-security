@@ -29,11 +29,8 @@ runs:
   using: 'docker'
   image: '.github/actions/Dockerfile'
   args:
-    - ${{ inputs.path }}
-    - ${{ inputs.profile }}
-    - ${{ inputs.fail_on_warnings }}
-    - ${{ inputs.source }}
-    - ${{ inputs.requirements }}
+    - name: PyCharm Python Security Scanner
+  uses: tonybaloney/pycharm-security@1.25.1
 branding:
   icon: 'lock'
   color: 'blue'
